@@ -1,0 +1,23 @@
+# Never commit device images, firmware, builds or anything that identifies a device.
+*.img
+*.bin
+*.fex
+*.zip
+*.tar
+*.tar.gz
+*.tar.xz
+*.bz2
+boordr
+boordr.*
+ebrmain
+DjvuServer
+nvram*
+sn.txt
+wifi.txt
+activation.xml
+aplists.xml
+userconf
+.env
+*.log
+backup/
+backups/

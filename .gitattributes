@@ -1,0 +1,6 @@
+# Shell scripts run on the device: they MUST keep LF line endings (a CRLF shim will not run).
+*.sh text eol=lf
+*.lua text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.ps1 text eol=crlf
